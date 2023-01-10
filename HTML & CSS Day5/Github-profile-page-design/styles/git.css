@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    Padding:0;
+    box-sizing: border-box;
+}
+
+body{
+   min-width:100%;
+    overflow-x:hidden;
+    font-family:'Poppins', sans-serif;
+    font-size:14px;
+    background-color: #CAD2C5;
+}
+
+.top-bar{
+    display:flex;
+    width:100%;
+    align-items: center;
+    background-color: #2F3D46;
+    height: 85px;
+}
+
+.logo{
+    width:10%;
+    padding:0 1.5rem;
+}
+
+.github{
+    width:80%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    color:#fff;
+}
+
+
+.container{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    
+    
+    
+}
+
+.right{
+    
+    width:65%;
+}
+
+.left{
+    width:35%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:2.5rem 0 1.5rem;
+   
+    
+}
+
+
+
+#left-box{
+    background-color: #353535;
+    width:19rem;
+    height:30rem;
+    border-radius: 20px;
+    
+    
+ 
+}
+
+.right-top{
+width: 100%;
+height: 30%;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.right-top-box{
+    background-color: #353535;
+    width:35rem;
+    height:2.5rem;
+    border-radius: 8px;
+    text-align: left;
+    display:flex;
+    align-items: center;
+
+}
+
+.search{
+    padding:1rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    color: #CAD2C5;
+}
+
+
+.right-middle{
+width: 100%;
+height: 30%;
+display:flex;
+justify-content: space-around;
+align-items: center;
+}
+.right-middle-box{
+    background-color: #353535;
+    width:12rem;
+    height:8rem;
+    border-radius: 8px;
+}
+
+
+.right-bottom{
+width: 100%;
+height: 40%;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.right-bottom-box{
+    background-color: #353535;
+    width:48rem;
+    height:10rem;
+    border-radius: 8px;
+
+}
+
+@media screen and (max-width:768px){
+    .container{
+       display:flex;
+       flex-direction: column;
+       justify-content: space-around;
+       align-items: center;
+       
+    }
+
+    #left-box{
+        margin:1.4rem;
+    }
+
+    .right-top-box{
+        margin:1rem 1.2rem 1.2rem ;
+    }
+
+    .right-middle-box{
+        margin:1rem 1.2rem 1.2rem ;
+    }
+
+    .right-bottom-box{
+        margin:1rem 1.2rem 1.2rem ;
+    }
+}
